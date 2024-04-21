@@ -254,7 +254,7 @@ a {
 }
 
 .sticky img {
-  width: 74px;
+  width: 150px;
   justify-self: start;
   margin-left: 20px;
   transition: 0.5s;
@@ -290,7 +290,7 @@ a {
 }
 
 .navbar img {
-  width: 74px;
+  width: 200px;
   justify-self: start;
   margin-left: 20px;
   transition: 0.5s;
@@ -474,10 +474,10 @@ a {
     position: fixed !important;
     justify-content: start;
     gap: 30px;
-    top: 64px;
+    top: 0px;
     background-color: black;
     width: 100%;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 0px);
     transform: translate(-101%);
     text-align: center;
     overflow: hidden;
@@ -499,6 +499,7 @@ a {
   .bar {
     display: block;
     cursor: pointer;
+    z-index: 99;
   }
 
   .mobile-nav {
@@ -2853,8 +2854,16 @@ body .specification .accordion-button {
     display: none;
   }
 
+
+  .home-icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   .banner-display {
     display: block !important;
+    font-size: 40px!important;
   }
 }
 
@@ -3458,7 +3467,7 @@ nav>div a.nav-item.nav-link:focus {
 }
 
 .footer-logo {
-  max-height: 50px;
+  max-height: 80px;
   margin-bottom: 30px;
 }
 
@@ -4338,6 +4347,16 @@ position: absolute;
   .body-shape7{
     display: none;
   }
+  .section-stats__row{
+    flex-direction: column;
+  }
+  .section-stats .stats-item{
+    border-right: none!important;
+  }
+.section-stats .stats-item__counter{
+  font-size: 39px;
+}
+
   .sec-title{
     text-align: center;
   }
@@ -4587,3 +4606,84 @@ position: absolute;
     justify-content: center;
   }
 }
+
+
+/* // whatsapp-btn  */
+.wfloat{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:37px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:14px;
+}
+
+
+/* //Call Btn  */
+
+.call-buton .cc-calto-action-ripple {
+	z-index: 99999;
+	position: fixed;
+left: 1rem;
+	bottom: 2rem;
+  margin-left: 25px;
+	background: #ec8b00;
+	width: 4rem;
+	height: 4rem;
+	padding: 1rem;
+	border-radius: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #ffffff;
+	-webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+	animation: cc-calto-action-ripple 0.6s linear infinite;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none; }
+	.call-buton .cc-calto-action-ripple i {
+	  -webkit-transition: 0.3s ease;
+	  transition: 0.3s ease;
+	  font-size: 2.2rem; }
+	.call-buton .cc-calto-action-ripple:hover i {
+	  -webkit-transform: rotate(135deg);
+	  transform: rotate(135deg); }
+  
+  @-webkit-keyframes cc-calto-action-ripple {
+	0% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+	100% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } }
+  
+  @keyframes cc-calto-action-ripple {
+	0% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+	100% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } }
+
+	span.num{
+		position: absolute;
+    color: #ec8b00;
+    left: -30%;
+    bottom: -50%;
+	}

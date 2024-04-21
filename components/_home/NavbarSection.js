@@ -28,7 +28,7 @@ const NavbarSection = () => {
       <div class={navwrap}>
         <nav class={navbar}>
           <Link href="/">
-            <img src="/resource/logo.png" />
+            <img src="/resource/footer_logo.png" />
           </Link>
           {/* <div className="color-block"></div> */}
           <div

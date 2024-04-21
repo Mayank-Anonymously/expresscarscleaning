@@ -12,6 +12,8 @@ import BasePrice from "components/BasePrice";
 import BgCard from "components/BgCard";
 import PriceBanner from "components/PriceBanner";
 import Reviews from "components/Reviews";
+import WhatsappBtn from "components/WhatsappBtn";
+import CallBtn from "components/CallBtn";
 
 export default function Home() {
   return (
@@ -20,10 +22,12 @@ export default function Home() {
       <Homebanner />
       <Services />
       <PriceBanner />
-    
+
       <BgCard />
       <Reviews />
       <DetailsTab />
+      <WhatsappBtn />
+      <CallBtn />
       <Footer />
     </>
   );

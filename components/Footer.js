@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -9,21 +10,21 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="widget">
-                  <div className="widget-heading">
-                    <h4 className="widget-title">About Us</h4>
-                  </div>
                   <div className="widget-contet">
                     <img
-                      src="images/car-logo.png"
+                      src="/resource/footer_logo.png"
                       className="footer-logo"
                       alt=""
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra
+                      A wonderful serenity taken possession into entire soul
+                      like to these sweet of tence this spot which was the main
+                      part created the bliss often souls like mine.
                     </p>
+                  </div>
+                  <div className="widget-heading">
+                    <h4 className="widget-title">Service Hours</h4>
+                    <p>Monday - Sunday: 8:00 am - 6:30 pm</p>
                   </div>
                 </div>
               </div>
@@ -35,22 +36,16 @@ const Footer = () => {
                   <div className="widget-contet footer-menu">
                     <ul className="menu">
                       <li>
-                        <a href="#about">About</a>
+                        <Link href="/service">Service</Link>
                       </li>
                       <li>
-                        <a href="#technology">Features</a>
+                        <Link href="/coating">Car Coating</Link>
                       </li>
                       <li>
-                        <a href="#color">variations</a>
+                        <Link href="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#engine">Specials</a>
-                      </li>
-                      <li>
-                        <a href="#accessories">Accessories</a>
-                      </li>
-                      <li>
-                        <a href="#book-ride">Book Ride</a>
+                        <Link href="/">Home</Link>
                       </li>
                     </ul>
                   </div>
@@ -66,24 +61,22 @@ const Footer = () => {
                       <i className="fas fa-phone" />
                       <h3>Phone</h3>
                       <span>
-                        <a href="%2b01(123)%20456%207890.html">
-                          +01(123) 456 7890
-                        </a>
+                        <a href="tel:+91 8527936779">+91 8527936779</a>
                       </span>
                     </div>
-                    <div className="widget-contact-info">
+                    {/* <div className="widget-contact-info">
                       <i className="fas fa-envelope-open" />
                       <h3>Email</h3>
                       <span>
                         <a href="mailtp:info@wheels.com">info@wheels.com</a>
                       </span>
-                    </div>
+                    </div> */}
                     <div className="widget-contact-info">
                       <i className="fas fa-map-marker-alt" />
                       <h3>Address</h3>
                       <span>
-                        3892 Fincham Road, <br />
-                        Los Angeles, CA 90017
+                        Shop No.1 Snatan Dharam Mandir East laxmi nagar market
+                        Delhi 110092
                       </span>
                     </div>
                   </div>
@@ -120,17 +113,26 @@ const Footer = () => {
                     <div className="footer-social">
                       <ul>
                         <li>
-                          <a href="#">
+                          <a
+                            target="_blank"
+                            href="https://www.facebook.com/Expresscarcleanings"
+                          >
                             <i className="fab fa-facebook-f" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
+                          <a
+                            target="_blank"
+                            href="https://www.instagram.com/express_cars_cleaning?igsh=MWt5eWp3b2I2YjMxYQ=="
+                          >
+                            <i className="fab fa-instagram" />
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@expresscars2018"
+                          >
                             <i className="fab fa-youtube" />
                           </a>
                         </li>

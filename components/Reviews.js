@@ -20,7 +20,10 @@ const Reviews = () => {
   };
 
   return (
-    <section className="position-relative overflow-hidden bg-smoke space-top space-extra-bottom shape-mockup-wrap">
+    <section
+      className="position-relative overflow-hidden bg-smoke space-top space-extra-bottom shape-mockup-wrap"
+      data-aos="fade-in"
+    >
       <div className="container">
         <div className="title-area text-center">
           <span className="sub-title">

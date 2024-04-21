@@ -1,7 +1,9 @@
+import CallBtn from "components/CallBtn";
 import DetailsTab from "components/DetailsTab";
 import Footer from "components/Footer";
 import PriceBanner from "components/PriceBanner";
 import Services from "components/Services";
+import WhatsappBtn from "components/WhatsappBtn";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
 import React from "react";
@@ -13,7 +15,8 @@ const service = () => {
       <SecondBanner mainhead="Service" image={"/resource/clean.jpg"} />
       <Services />
       <PriceBanner />
-
+      <WhatsappBtn />
+      <CallBtn />
       <DetailsTab />
       <Footer />
     </>

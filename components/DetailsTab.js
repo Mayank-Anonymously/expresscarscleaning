@@ -171,7 +171,7 @@ const DetailsTab = () => {
                             </ul>
                             <a
                               target="_blank"
-                              href="https://api.whatsapp.com/send?phone=918527936779"
+                              href="https://wa.me/918527936779?text=Hi%20There!"
                             >
                               <button className="whatsapp-btn">
                                 <img
@@ -256,7 +256,7 @@ const DetailsTab = () => {
                             </ul>
                             <a
                               target="_blank"
-                              href="https://api.whatsapp.com/send?phone=918527936779"
+                              href="https://wa.me/918527936779?text=Hi%20There!"
                             >
                               <button className="whatsapp-btn">
                                 <img
@@ -319,7 +319,7 @@ const DetailsTab = () => {
                           </p>
                           <a
                             target="_blank"
-                            href="https://api.whatsapp.com/send?phone=918527936779"
+                            href="https://wa.me/918527936779?text=Hi%20There!"
                           >
                             <button className="whatsapp-btn">
                               <img
