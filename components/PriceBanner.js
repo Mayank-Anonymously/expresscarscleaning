@@ -11,6 +11,9 @@ const PriceBanner = () => {
               <div className="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                 <div className="title-area text-lg-start">
                   <h2 className="sec-title text-white">Our Price Plan</h2>
+                  <h5 style={{ color: "#ee3131", fontWeight: "600" }}>
+                    Interior Dry Cleaning Free With Any Package You Will Select
+                  </h5>
                 </div>
               </div>
               <div className="col-auto" data-aos="fade-up" data-aos-delay="200">
@@ -36,23 +39,23 @@ const PriceBanner = () => {
                         <ul>
                           <li>
                             <i className="fa-solid fa-check"></i>
-                            Hatchback - <span className="price-span">1300</span>
+                            Hatchback - <span className="price-span">1400</span>
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Sedan - <span className="price-span">
-                              1400{" "}
+                              1600{" "}
                             </span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Compact SUV -{" "}
-                            <span className="price-span">1800</span>{" "}
+                            <span className="price-span">1900</span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Full Size-SUV -{" "}
-                            <span className="price-span">2500 </span>{" "}
+                            <span className="price-span">2400 </span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
@@ -76,18 +79,18 @@ const PriceBanner = () => {
                         <ul>
                           <li>
                             <i className="fa-solid fa-check"></i>
-                            Hatchback - <span className="price-span">700</span>
+                            Hatchback - <span className="price-span">800</span>
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Sedan - <span className="price-span">
-                              800{" "}
+                              900{" "}
                             </span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Compact SUV -{" "}
-                            <span className="price-span">900</span>{" "}
+                            <span className="price-span">1000</span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
@@ -116,18 +119,18 @@ const PriceBanner = () => {
                         <ul>
                           <li>
                             <i className="fa-solid fa-check"></i>
-                            Hatchback - <span className="price-span">800</span>
+                            Hatchback - <span className="price-span">900</span>
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Sedan - <span className="price-span">
-                              900{" "}
+                              1000{" "}
                             </span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Compact SUV -{" "}
-                            <span className="price-span">1000</span>{" "}
+                            <span className="price-span">1200</span>{" "}
                           </li>
                           <li>
                             <i className="fa-solid fa-check"></i>
@@ -137,7 +140,7 @@ const PriceBanner = () => {
                           <li>
                             <i className="fa-solid fa-check"></i>
                             Luxury -<span className="price-span">
-                              2000{" "}
+                              1800{" "}
                             </span>{" "}
                           </li>
                         </ul>
@@ -150,7 +153,9 @@ const PriceBanner = () => {
                 <div className="">
                   <div className="price-card style2">
                     <div className="price-card_header">
-                      <h3 className="price-card_title">Teflon Coating</h3>
+                      <h3 className="price-card_title">
+                        Teflon Coating / Car Coating
+                      </h3>
                       <p className="price-card_subtitle">
                         Our Most Popular Plans
                       </p>
@@ -174,19 +179,19 @@ const PriceBanner = () => {
                           style={{ listStyleType: "none" }}
                         >
                           <li>
-                            <span className="price-span">2999/-</span>
+                            <span className="price-span">2500/-</span>
                           </li>
                           <li>
-                            <span className="price-span">3499/- </span>
+                            <span className="price-span">3000/- </span>
                           </li>
                           <li>
-                            <span className="price-span">3499/- </span>
+                            <span className="price-span">3500/- </span>
                           </li>
                           <li>
-                            <span className="price-span">3499/- </span>
+                            <span className="price-span">4000/- </span>
                           </li>
                           <li>
-                            <span className="price-span">3499/- </span>
+                            <span className="price-span">4500/- </span>
                           </li>
                         </ul>
                       </div>
@@ -197,6 +202,10 @@ const PriceBanner = () => {
                   </div>
                 </div>
               </div>
+              <h5 style={{ color: "#ee3131" }}>
+                Note: Our charges can be modified as per our customer's and
+                their vehicle's requirements
+              </h5>
             </div>
           </div>
           <div className="body-shape7">
