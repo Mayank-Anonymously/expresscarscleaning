@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PriceBanner = () => {
@@ -14,9 +15,9 @@ const PriceBanner = () => {
               </div>
               <div className="col-auto" data-aos="fade-up" data-aos-delay="200">
                 <div className="sec-btn">
-                  <a href="price.html" className="th-btn style4">
+                  <Link href="/service" className="th-btn style4">
                     See All Plans
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -189,7 +190,7 @@ const PriceBanner = () => {
                           </li>
                         </ul>
                       </div>
-                      <a href="price.html" className="th-btn">
+                      <a href="tel:+91 8527936779" className="th-btn">
                         Call Us Now
                       </a>
                     </div>

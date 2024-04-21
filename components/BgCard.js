@@ -55,10 +55,10 @@ const BgCard = () => {
                     internal detailing making your car look the best version of
                     its self.
                   </p>
-                  <a href="#" className="readmore">
+                  <Link href="/coating" className="readmore">
                     Read more
                     <i className="fa fa-angle-double-right" />
-                  </a>
+                  </Link>
                 </div>{" "}
                 {/* Service content end */}
               </div>{" "}
@@ -90,10 +90,10 @@ const BgCard = () => {
                     car polishing services we have managed to be on the top of
                     the best providers of car polishing services in Delhi.
                   </p>
-                  <a href="#" className="readmore">
+                  <Link href="/coating" className="readmore">
                     Read more
                     <i className="fa fa-angle-double-right" />
-                  </a>
+                  </Link>
                 </div>{" "}
                 {/* Service content end */}
               </div>{" "}
@@ -129,10 +129,10 @@ const BgCard = () => {
                     services in Delhi we are undoubtedly your one short
                     solution.
                   </p>
-                  <a href="#" className="readmore">
+                  <Link href="/coating" className="readmore">
                     Read more
                     <i className="fa fa-angle-double-right" />
-                  </a>
+                  </Link>
                 </div>{" "}
                 {/* Service content end */}
               </div>{" "}
