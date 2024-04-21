@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BgCard = () => {
@@ -139,9 +140,9 @@ const BgCard = () => {
             </div>{" "}
           </div>{" "}
           <div className="btn-more-box mt-5 text-center mb-5">
-            <a className="btn-hover-corner" href="#">
+            <Link className="btn-hover-corner" href="/contact">
               Make Appointment
-            </a>
+            </Link>
           </div>
         </div>{" "}
         {/* Row End */}

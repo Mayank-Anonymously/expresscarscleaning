@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Services = () => {
@@ -22,9 +23,9 @@ const Services = () => {
                 service.
               </p>
               <div className="btn-more-box">
-                <a className="btn-hover-corner" href="#">
+                <Link className="btn-hover-corner" href="/contact">
                   LEARN MORE
-                </a>
+                </Link>
               </div>
             </div>
           </div>
