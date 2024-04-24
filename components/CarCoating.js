@@ -15,44 +15,49 @@ const CarCoating = () => {
               data-aos-delay="100"
             >
               <div>
-                <h2>Nano Ceremic Coating &amp; Graphene Coating</h2>
+                <h2>Nano Ceramic Coating & Graphene Coating</h2>
                 <p>
-                  <b>What is Nano Ceramic Coating ?</b>
+                  <b>What Is Coating ?</b>
                 </p>
                 <p>
-                  The easiest way is to understand Ceramics Coatings are to
-                  think of them as a second layer of skin, or a sacrificial
-                  layer of protection over your car’s clearcoat.
+                  Nano ceramic coating & Graphene Coating, also known as
+                  Graphene coating or nanocoating, is a liquid polymer that is
+                  applied to the exterior of a vehicle to protect it from
+                  external damage. This coating creates a chemical bonding with
+                  the vehicle's factory paint, creating a layer of protection
+                  that can last for several years.
+                </p>
+                <b>Benifit For Ceramic & Graphene Coating</b>
+                <p>
+                  Scratch Resistance: Nano ceramic coatings & Graphene Coating
+                  are harder than the clear coat of the car, so they can resist
+                  scratches from small debris and minor abrasions
                 </p>
                 <p>
-                  This coating makes up the hardest paint coating in the market
-                  today and provides the ultra-protection to your vehicle. One
-                  additional and not so considered benefit of this service is
-                  that it preserves the original factory paint from damages.
-                  Moreover, in case any surface scratches happen in the coating
-                  they can be seamlessly removed with light polishing and in no
-                  way weaken the integrity of the original clear coat. With the
-                  services offered by us your car remain young and pretty as the
-                  paint is prevented from fading or aging due to the UV
-                  protection in the glass coating provided.
+                  Chemical Resistance: They provide a barrier against chemicals
+                  like bird droppings, tree sap, and acidic substances, which
+                  can damage the paint.
                 </p>
-                <h4>Inclusions:</h4>
-                <ul className="pl-3">
-                  <li>
-                    The surface of your car becomes super hydrophobic and water
-                    resistant.
-                  </li>
-                  <li>
-                    One of the biggest worry of scratch is taken away by this
-                    coating.
-                  </li>
-                  <li>
-                    High gloss is restored making it appear like a novel car.
-                  </li>
-                  <li>
-                    The car becomes the UV Resistant and Thermal Resistant.
-                  </li>
-                </ul>
+                <p>
+                  UV Protection: Ceramic coatings can also protect the paint
+                  from the sun's harmful ultraviolet rays, preventing paint
+                  oxidation and fading.
+                </p>
+                <p>
+                  Hydrophobic Properties: Nano coatings are hydrophobic, meaning
+                  they repel water. This makes it easier to clean dirt and grime
+                  off the car, as water beads up and rolls off the surface.
+                </p>
+                <p>
+                  Ease of Cleaning: Since dirt and grime have a harder time
+                  sticking to the surface, regular washing becomes more
+                  effective and less time-consuming.
+                </p>
+                <p>
+                  Enhanced Gloss: Ceramic coatings can enhance the depth and
+                  gloss of the paint, giving the car a "wet" look even when dry.
+                </p>
+
                 <a
                   target="_blank"
                   href="https://wa.me/918527936779?text=Hi%20There!"

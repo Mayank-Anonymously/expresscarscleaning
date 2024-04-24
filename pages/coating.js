@@ -1,6 +1,8 @@
 import CarCoating from "components/CarCoating";
+import CoatingTable from "components/CoatingTable";
 import CountRow from "components/CountRow";
 import Footer from "components/Footer";
+import ProtectionBanner from "components/ProtectionBanner";
 import Reviews from "components/Reviews";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
@@ -28,41 +30,34 @@ const coating = () => {
               data-aos-delay="100"
             >
               <h3 className="cardheading mt-2">
-                What is Nano Coating &amp; Graphene coating
+                Why Is Ceramic Coating Different From Wax & Teflon Coating
               </h3>
-              <h3 className="cardheading mt-1">Nano &amp; Graphene Coating</h3>
+
               <p className="mt-4">
-                The easiest way is to understand s Coatings are to think of them
-                as a second layer of skin, or a sacrificial layer of protection
-                over your car’s clearcoat. Professional Sio2 &amp; Graphene
-                Coating for all metal and fiber surfaces.Coating protects your
-                vehicle from damaging contaminants. Made with High grade Sio2
-                and purity nano coating lasts up to 2 years with 2 layer of
-                application.
+                Durability: Ceramic coatings last much longer than wax & Teflon
+                Coating , which may require reapplication every few months.
               </p>
               <p>
-                The primary layer does not have the same level of scratch or
-                stone chip resistance as an advanced nano ceramic coating that
-                can keep its value from depreciating. Regardless of how much you
-                wash the surface, these imperfections are very difficult to
-                remove once they have been inflicted.
+                Protection: Ceramic coatings provide better protection against
+                scratches, UV rays, and chemicals compared to wax & Teflon
+                Coating
               </p>
               <p>
-                It is for this reason that every vehicle needs a tough paint
-                protection coating. In order to ensure the most effective
-                protection for your vehicle, choosing the appropriate car
-                detailing product can be challenging, requiring extensive
-                research and in-depth knowledge.
+                Maintenance: They make cleaning easier due to their hydrophobic
+                properties, whereas wax & Teflon Coating does not repel water as
+                effectively
               </p>
-              <p>
-                Therefore, after extensive research and numerous
-                'trying-testing' experiments, Detailing Devils detailing studio
-                developed its own line of premium nanotechch coatings.
-              </p>
+              <b>
+                Overall, nano ceramic coating is a popular choice for car
+                enthusiasts and owners who want long-lasting protection and
+                easier maintenance for their vehicles.
+              </b>
             </div>
           </div>
         </div>
       </section>
+      <ProtectionBanner />
+      <CoatingTable />
       <CountRow />
 
       <Reviews />

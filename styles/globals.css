@@ -4687,3 +4687,110 @@ left: 1rem;
     left: -30%;
     bottom: -50%;
 	}
+
+
+
+
+  /* CoatingTable.css */
+
+/* .coating-table-container {
+  margin: 20px;
+}
+
+.coating-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.coating-table caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.coating-table th,
+.coating-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.coating-table th {
+  background-color: #f2f2f2;
+}
+
+.category {
+  font-weight: bold;
+  background-color: #ccc;
+} */
+
+.coating-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.coating-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coating-table th,
+.coating-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 13px;
+}
+
+/* .coating-table th {
+  background-color: #f2f2f2;
+} */
+
+/* Striped table rows */
+.coating-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Category cells style */
+.category {
+  font-weight: bold;
+}
+
+/* Optional: Caption style */
+.coating-table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.striped-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.striped-table th,
+.striped-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.striped-table th {
+  background-color: #f2f2f2;
+}
+
+/* Striped table rows */
+.striped-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 768px) {
+  .coating-table th,
+.coating-table td {
+  font-size: 11px;
+}
+.striped-table th,
+.striped-table td {
+  font-size: 13px;
+}
+}
