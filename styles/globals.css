@@ -4793,4 +4793,7 @@ left: 1rem;
 .striped-table td {
   font-size: 13px;
 }
+.red-note-heading{
+  text-align: center;
+}
 }

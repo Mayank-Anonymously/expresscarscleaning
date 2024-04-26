@@ -11,8 +11,13 @@ const PriceBanner = () => {
               <div className="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                 <div className="title-area text-lg-start">
                   <h2 className="sec-title text-white">Our Price Plan</h2>
-                  <h5 style={{ color: "#ee3131", fontWeight: "600" }}>
-                    Interior Dry Cleaning Free With Any Package You Will Select
+
+                  <h5
+                    className="mt-3 red-note-heading"
+                    style={{ color: "#ee3131" }}
+                  >
+                    Note: Our charges can be modified as per our customer's and
+                    their vehicle's requirements
                   </h5>
                 </div>
               </div>
@@ -154,7 +159,7 @@ const PriceBanner = () => {
                   <div className="price-card style2">
                     <div className="price-card_header">
                       <h3 className="price-card_title">
-                        Teflon Coating / Car Coating
+                        Teflon Coating / Paint Protection Treatment
                       </h3>
                       <p className="price-card_subtitle">
                         Our Most Popular Plans
@@ -200,12 +205,19 @@ const PriceBanner = () => {
                       </a>
                     </div>
                   </div>
+                  <h5
+                    className="mt-3 red-note-heading"
+                    style={{
+                      color: "#ee3131",
+                      fontWeight: "600",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Interior Dry Cleaning Free With Every Teflon Coating and
+                    Paint Protection Treatment Package
+                  </h5>
                 </div>
               </div>
-              <h5 style={{ color: "#ee3131" }}>
-                Note: Our charges can be modified as per our customer's and
-                their vehicle's requirements
-              </h5>
             </div>
           </div>
           <div className="body-shape7">
