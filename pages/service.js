@@ -1,7 +1,9 @@
 import CallBtn from "components/CallBtn";
 import DetailsTab from "components/DetailsTab";
 import Footer from "components/Footer";
+import Offering2 from "components/Offering2";
 import PriceBanner from "components/PriceBanner";
+import Products from "components/Products";
 import Services from "components/Services";
 import WhatsappBtn from "components/WhatsappBtn";
 import NavbarSection from "components/_home/NavbarSection";
@@ -14,7 +16,10 @@ const service = () => {
       <NavbarSection />
       <SecondBanner mainhead="Service" image={"/resource/clean.jpg"} />
       <Services />
+      <Offering2 />
+
       <PriceBanner />
+      <Products />
       <WhatsappBtn />
       <CallBtn />
       <DetailsTab />

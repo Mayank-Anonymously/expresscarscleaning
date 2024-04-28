@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/coating": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/coating.js"
-    ],
     "/service": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

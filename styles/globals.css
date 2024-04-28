@@ -660,6 +660,8 @@ a {
   .homebanner h1 {
     font-size: 52px;
   }
+  .homebanner{height: 105vh!important;
+  background-position-x: center;}
   }
 
 
@@ -4796,4 +4798,107 @@ left: 1rem;
 .red-note-heading{
   text-align: center;
 }
+}
+
+.products-image {
+    width: 150px;
+    height: auto; /* Ensures aspect ratio is maintained */
+    display: block; /* Ensures images do not have any extra space below */
+    margin: 0 auto; /* Centers the images horizontally */
+    
+  }
+
+
+  /* //Offering 2  */
+
+
+.repair-row-service-list {
+  overflow: hidden;
+}
+.repair-row-service-list .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.repair-row-service-list .row:after,
+.repair-row-service-list .row:before {
+  display: none;
+}
+.repair-row-service .item {
+  margin-bottom: -1px;
+  padding: 1.875em 3.75% 1.5625em;
+  border: 1px solid #e5e5e5;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+.repair-row-service .item h5 {
+  white-space: nowrap;
+  margin: 0;
+}
+.repair-row-service .item p {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.repair-row-service .item .divider-decor {
+  margin: 1em 0;
+}
+.repair-row-service h2,
+.services-features h2 {
+  margin: 0 auto 0.5em;
+  line-height: 1;
+}
+.repair-row-service .img-wrap,
+.services-features .img-wrap {
+  max-width: 65px;
+  max-height: 65px;
+  margin: 0 auto 1.25em;
+}
+.repair-row-service .img-wrap .icon,
+.services-features .img-wrap .icon {
+  width: 100%;
+  font-size: 6rem;
+  vertical-align: top;
+  color: #f33544;
+}
+.repair-row-service .img-wrap .icon:before,
+.services-features .img-wrap .icon:before {
+  font-size: inherit;
+  margin-left: 0;
+  vertical-align: top;
+}
+.services-list {
+  color: #fff;
+  margin-bottom: 2.5em;
+}
+.services-list__item {
+  padding: 78px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.services-list__item.over-dark:after {
+  z-index: 1;
+}
+.services-list__item .expand-title {
+  position: relative;
+  z-index: 2;
+}
+.services-list__heading {
+  display: inline-block;
+}
+.services-features {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: -1.875em;
+}
+.services-features__item {
+  border-right: 1px solid #e5e5e5;
+  margin-bottom: 1.875em;
+}
+.services-features__caption {
+  margin-bottom: -5px;
 }
