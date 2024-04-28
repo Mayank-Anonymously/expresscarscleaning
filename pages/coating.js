@@ -1,3 +1,4 @@
+import BikeBanner from "components/BikeBanner";
 import CarCoating from "components/CarCoating";
 import CoatingTable from "components/CoatingTable";
 import CountRow from "components/CountRow";
@@ -58,6 +59,7 @@ const coating = () => {
       </section>
       <ProtectionBanner />
       <CoatingTable />
+      <BikeBanner />
       <CountRow />
 
       <Reviews />
