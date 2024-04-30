@@ -41,7 +41,7 @@ const ContactForm = () => {
                 <form
                   id="contact-form"
                   method="post"
-                  action="http://quickdevs.com/templates/autochoice/contact.php"
+                  action="mailto:contact@expresscarcleaning.in"
                 >
                   <div className="messages" />
                   <div className="controls">
