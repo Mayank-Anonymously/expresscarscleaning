@@ -23,7 +23,7 @@ const ContactForm = () => {
                   <div className="contact-icon">
                     <i className="fas fa-envelope" />
                   </div>
-                  <p>contact@expresscarcleaning.in</p>
+                  <p>expresscar94@gmail.com</p>
                 </div>
                 <div className="span-contact">
                   <div className="contact-icon">
@@ -39,9 +39,10 @@ const ContactForm = () => {
             <div className="col-lg-6">
               <div className="contact-form">
                 <form
+                  // autocomplete={true}
                   id="contact-form"
-                  method="post"
-                  action="mailto:contact@expresscarcleaning.in"
+                  // method="post"
+                  action="mailto:expresscar94@gmail.com"
                 >
                   <div className="messages" />
                   <div className="controls">
