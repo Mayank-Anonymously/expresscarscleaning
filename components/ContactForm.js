@@ -11,7 +11,12 @@ const ContactForm = () => {
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: { name: name, email: email, number: number, query: query },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        number: number,
+        query: query,
+      }),
     };
 
     fetch(
@@ -22,7 +27,7 @@ const ContactForm = () => {
       .then((response) => {
         if (response.baseResponse.status === 1) {
           setSuccess(true);
-          window.open(`https://wa.me/918527936779?text=${query}!`);
+          window.open(`https://wa.me/918527936779?text=${query}!`, "__blank");
         } else {
           setSuccess(false);
         }
