@@ -1,6 +1,33 @@
 import React from "react";
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [query, setQuery] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [success, setSuccess] = useState(false);
+  const sendQuery = () => {
+    const options = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: { name: name, email: email, number: number, query: query },
+    };
+
+    fetch(
+      "https://api.expresscarscleaning.in/query/send-mail/query-by-customer",
+      options
+    )
+      .then((response) => response.json())
+      .then((response) => {
+        if (response.baseResponse.status === 1) {
+          setSuccess(true);
+          window.open(`https://wa.me/918527936779?text=${query}!`);
+        } else {
+          setSuccess(false);
+        }
+      })
+      .catch((err) => console.error(err));
+  };
   return (
     <>
       <section>
@@ -42,7 +69,7 @@ const ContactForm = () => {
                   // autocomplete={true}
                   id="contact-form"
                   // method="post"
-                  action="mailto:expresscar94@gmail.com"
+                  onSubmit={sendQuery}
                 >
                   <div className="messages" />
                   <div className="controls">
@@ -57,6 +84,7 @@ const ContactForm = () => {
                             placeholder="Name"
                             required="required"
                             data-error="Firstname is required."
+                            onChange={(e) => setName(e.target.value)}
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -71,6 +99,7 @@ const ContactForm = () => {
                             placeholder="Email address"
                             required="required"
                             data-error="Valid email is required."
+                            onChange={(e) => setEmail(e.target.value)}
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -83,6 +112,7 @@ const ContactForm = () => {
                             name="phone"
                             className="form-control customize"
                             placeholder="Please enter your phone"
+                            onChange={(e) => setNumber(e.target.value)}
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -97,6 +127,7 @@ const ContactForm = () => {
                             rows={5}
                             required="required"
                             data-error="Please,leave us a message."
+                            onChange={(e) => setQuery(e.target.value)}
                           />
                           <div className="help-block with-errors" />
                         </div>
@@ -114,6 +145,7 @@ const ContactForm = () => {
                       </div>
                     </div>
                   </div>
+                  {success && <span>Query has been raised successfully</span>}
                 </form>
               </div>
             </div>
