@@ -6,7 +6,8 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [success, setSuccess] = useState(false);
-  const sendQuery = () => {
+  const sendQuery = (e) => {
+    e.preventDefault();
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
