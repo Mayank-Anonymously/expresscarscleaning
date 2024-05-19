@@ -38,6 +38,18 @@ export default function Document() {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         />
         {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-4S3NW5BSWQ"
+        ></script>
+        <script>
+          {`  window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              
+              gtag('config', 'G-4S3NW5BSWQ');
+            `}
+        </script>
       </Head>
       <body>
         <Main />
