@@ -45,16 +45,22 @@ const NavbarSection = () => {
               class="nav-item"
               style={{ textAlign: "center", marginLeft: "14px" }}
             >
-              <Link href="/">HOME</Link>
+              <Link href="/">Home</Link>
             </li>
             <li class="nav-item">
-              <Link href="/service">SERVICES</Link>
+              <Link href="/service">Servives</Link>
             </li>
             <li class="nav-item">
-              <Link href="/coating">CAR COATING</Link>
+              <Link href="/terms">Terms and Conditions</Link>
             </li>
             <li class="nav-item">
-              <Link href="/contact">CONTACT</Link>
+              <Link href="/privacy">Privacy and Policy</Link>
+            </li>
+            <li class="nav-item">
+              <Link href="/coating">Car Coating</Link>
+            </li>
+            <li class="nav-item">
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
