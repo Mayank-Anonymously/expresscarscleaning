@@ -48,6 +48,17 @@ export default function Document() {
             gtag('js', new Date());
             gtag('config', 'AW-16567227980');`}
         </script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16564519050"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16564519050');`}
+        </script>
+
         <script>
           {`!function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -60,6 +71,7 @@ export default function Document() {
           fbq('init', '7406986156089992');
           fbq('track', 'PageView');`}
         </script>
+
         <noscript>
           <img
             height="1"
