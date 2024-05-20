@@ -50,17 +50,18 @@ const NavbarSection = () => {
             <li class="nav-item">
               <Link href="/service">Services</Link>
             </li>
-            <li class="nav-item">
-              <Link href="/terms">Terms and Conditions</Link>
-            </li>
-            <li class="nav-item">
-              <Link href="/privacy">Privacy and Policy</Link>
-            </li>
+
             <li class="nav-item">
               <Link href="/coating">Car Coating</Link>
             </li>
             <li class="nav-item">
               <Link href="/contact">Contact</Link>
+            </li>
+            <li class="nav-item">
+              <Link href="/terms">Terms and Conditions</Link>
+            </li>
+            <li class="nav-item">
+              <Link href="/privacy">Privacy and Policy</Link>
             </li>
           </ul>
         </nav>
