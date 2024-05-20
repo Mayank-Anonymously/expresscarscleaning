@@ -2,6 +2,8 @@ import React from "react";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
 import Footer from "components/Footer";
+import WhatsappBtn from "components/WhatsappBtn";
+import CallBtn from "components/CallBtn";
 const index = () => {
   return (
     <div>

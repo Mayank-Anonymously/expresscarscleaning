@@ -4,6 +4,7 @@ import Aos from "aos";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Inquery from "components/common/Modal";
 
 export default function App({ Component, pageProps }) {
   if (typeof window !== "undefined") {
@@ -16,5 +17,10 @@ export default function App({ Component, pageProps }) {
       once: true,
     });
   }, []);
-  return <Component {...pageProps} />;
+
+  return (
+    <>
+      <Component {...pageProps} /> <Inquery />
+    </>
+  );
 }
