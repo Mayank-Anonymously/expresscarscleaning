@@ -40,14 +40,13 @@ export default function Document() {
         {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-4S3NW5BSWQ"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16567227980"
         ></script>
         <script>
           {`window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              
-              gtag('config', 'G-4S3NW5BSWQ');`}
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16567227980');`}
         </script>
         <script>
           {`!function(f,b,e,v,n,t,s)
