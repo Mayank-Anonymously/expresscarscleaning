@@ -8,8 +8,6 @@ const Inquery = () => {
 
   const handleClose = () => setShow(false);
 
-  const handleShow = () => setShow(true);
-
   useEffect(() => {
     setTimeout(() => {
       setShow(true);

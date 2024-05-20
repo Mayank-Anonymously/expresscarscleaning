@@ -9,11 +9,13 @@ import Reviews from "components/Reviews";
 import WhatsappBtn from "components/WhatsappBtn";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
+import Inquery from "components/common/Modal";
 import React from "react";
 
 const coating = () => {
   return (
     <>
+      <Inquery />
       <NavbarSection />
       <SecondBanner mainhead="Car Coating" image={"/resource/clean.jpg"} />
       <CarCoating />

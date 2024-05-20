@@ -4,6 +4,7 @@ import SecondBanner from "components/_home/SecondBanner";
 import Footer from "components/Footer";
 import WhatsappBtn from "components/WhatsappBtn";
 import CallBtn from "components/CallBtn";
+import Inquery from "components/common/Modal";
 const index = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const index = () => {
         mainhead="Privacy and Policy"
         image={"/resource/clean.jpg"}
       />
+      <Inquery />
       <section className="car-coating p-0">
         <div className="container">
           <div className="row">
@@ -65,6 +67,7 @@ const index = () => {
       </section>
       <WhatsappBtn />
       <CallBtn />
+
       <Footer />
     </div>
   );

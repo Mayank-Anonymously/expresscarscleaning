@@ -8,6 +8,7 @@ import Services from "components/Services";
 import WhatsappBtn from "components/WhatsappBtn";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
+import Inquery from "components/common/Modal";
 import React from "react";
 
 const service = () => {
@@ -17,7 +18,7 @@ const service = () => {
       <SecondBanner mainhead="Service" image={"/resource/clean.jpg"} />
       <Services />
       <Offering2 />
-
+      <Inquery />
       <PriceBanner />
       <Products />
       <WhatsappBtn />
