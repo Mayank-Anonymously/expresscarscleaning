@@ -1,10 +1,12 @@
 import BikeBanner from "components/BikeBanner";
+import CallBtn from "components/CallBtn";
 import CarCoating from "components/CarCoating";
 import CoatingTable from "components/CoatingTable";
 import CountRow from "components/CountRow";
 import Footer from "components/Footer";
 import ProtectionBanner from "components/ProtectionBanner";
 import Reviews from "components/Reviews";
+import WhatsappBtn from "components/WhatsappBtn";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
 import React from "react";
@@ -61,8 +63,9 @@ const coating = () => {
       <CoatingTable />
       <BikeBanner />
       <CountRow />
-
       <Reviews />
+      <WhatsappBtn />
+      <CallBtn />
       <Footer />
     </>
   );

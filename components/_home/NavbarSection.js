@@ -48,7 +48,7 @@ const NavbarSection = () => {
               <Link href="/">Home</Link>
             </li>
             <li class="nav-item">
-              <Link href="/service">Servives</Link>
+              <Link href="/service">Services</Link>
             </li>
             <li class="nav-item">
               <Link href="/terms">Terms and Conditions</Link>

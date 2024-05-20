@@ -61,6 +61,8 @@ const index = () => {
           </div>
         </div>
       </section>
+      <WhatsappBtn />
+      <CallBtn />
       <Footer />
     </div>
   );
