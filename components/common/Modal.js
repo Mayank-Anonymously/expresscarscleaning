@@ -11,7 +11,7 @@ const Inquery = () => {
   useEffect(() => {
     setTimeout(() => {
       setShow(true);
-    }, 2000);
+    }, 10000);
   }, []);
 
   return (
