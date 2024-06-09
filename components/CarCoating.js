@@ -27,7 +27,7 @@ const CarCoating = () => {
                   the vehicle's factory paint, creating a layer of protection
                   that can last for several years.
                 </p>
-                <b>Benifit For Ceramic & Graphene Coating</b>
+                <b>Benefit For Ceramic & Graphene Coating</b>
                 <p>
                   Scratch Resistance: Nano ceramic coatings & Graphene Coating
                   are harder than the clear coat of the car, so they can resist
