@@ -16,8 +16,8 @@ const service = () => {
     <>
       <NavbarSection />
       <SecondBanner mainhead="Service" image={"/resource/clean.jpg"} />
-      <Services />
       <PriceBanner />
+      <Services />
       <Offering2 />
       <Inquery />
       <Products />
