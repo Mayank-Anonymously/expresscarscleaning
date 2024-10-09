@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { host } from "static";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -20,6 +21,7 @@ const ContactForm = () => {
     };
 
     fetch(
+      // `${host}query/send-mail/query-by-customer`,
       "https://api.expresscarscleaning.in/query/send-mail/query-by-customer",
       options
     )
