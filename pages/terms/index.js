@@ -2,7 +2,6 @@ import React from "react";
 import NavbarSection from "components/_home/NavbarSection";
 import SecondBanner from "components/_home/SecondBanner";
 import Footer from "components/Footer";
-import Inquery from "components/common/Modal";
 const index = () => {
   return (
     <div>
@@ -11,7 +10,6 @@ const index = () => {
         mainhead="Terms and condition"
         image={"/resource/clean.jpg"}
       />
-      <Inquery />
       <section className="car-coating p-0">
         <div className="container">
           <div className="row">
