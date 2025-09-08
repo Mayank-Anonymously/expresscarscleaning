@@ -52,10 +52,7 @@ const Homebanner = () => {
         <h1 data-aos="fade-up" className="type-heading">
           DETAILING SERVICE
         </h1>
-        {/* <h5>UP TO 40% OFF</h5> */}
-        <div className="redirect-btn">
-          <Link href="/contact">QUICK ENQUIRY</Link>
-        </div>
+   
         <div className="scroll-icon">
           <a href="#pricebanner">
             <div class="mouse-icon">
