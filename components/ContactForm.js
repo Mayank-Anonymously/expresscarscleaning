@@ -9,32 +9,7 @@ const ContactForm = () => {
   const [success, setSuccess] = useState(false);
   const sendQuery = (e) => {
     e.preventDefault();
-    const options = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        number: number,
-        query: query,
-      }),
-    };
-
-    fetch(
-      // `${host}query/send-mail/query-by-customer`,
-      "https://api.expresscarscleaning.in/query/send-mail/query-by-customer",
-      options
-    )
-      .then((response) => response.json())
-      .then((response) => {
-        if (response.baseResponse.status === 1) {
-          setSuccess(true);
-          window.open(`https://wa.me/918527936779?text=${query}!`, "__blank");
-        } else {
-          setSuccess(false);
-        }
-      })
-      .catch((err) => console.error(err));
+       window.open(`https://wa.me/918527936779?text=${query}!`, "__blank");
   };
   return (
     <>
