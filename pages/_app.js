@@ -1,10 +1,7 @@
 import { useEffect } from "react";
 import "../styles/globals.css";
-import Aos from "aos";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import Aos from "aos":
 import "bootstrap/dist/css/bootstrap.min.css";
-import Inquery from "components/common/Modal";
 
 export default function App({ Component, pageProps }) {
   if (typeof window !== "undefined") {
@@ -20,7 +17,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Component {...pageProps} /> <Inquery />
+      <Component {...pageProps} /> 
     </>
   );
 }
