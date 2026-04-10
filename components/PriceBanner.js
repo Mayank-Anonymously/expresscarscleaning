@@ -99,8 +99,7 @@ const PriceBanner = () => {
 													</li>
 													<li>
 														<i className='fa-solid fa-check'></i>
-														Sedan -{' '}
-														<span className='price-span'>1200 </span>{' '}
+														Sedan - <span className='price-span'>1200 </span>
 													</li>
 													<li>
 														<i className='fa-solid fa-check'></i>
